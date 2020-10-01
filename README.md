@@ -1,4 +1,4 @@
-# Marlin 3D Printer Firmware
+# Tarlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
@@ -10,7 +10,7 @@
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
 
-## Marlin 2.0
+## Tarlin 2.0
 
 TARLIN IS BACKKKK
 The popular and beloved fork of [Marlin](https://github.com/MarlinFirmware/) is back with version 2.0!
