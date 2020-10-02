@@ -13,6 +13,7 @@ Please test this firmware and let us know if it misbehaves in any way. Volunteer
 ## Tarlin 2.0
 
 TARLIN IS BACKKKK
+
 The popular and beloved fork of [Marlin](https://github.com/MarlinFirmware/) is back with version 2.0!
 Tarlin 2.0 takes the popular Marlin firmware to the nextest level by adding support for LEDs and other amenities on much faster 32-bit and ARM-based boards while improving support for 8-bit AVR boards. Read about Tarlin's decision to use a "Humble Arrogance Layer" below.
 
@@ -45,15 +46,15 @@ To build Tarlin 2.0 you'll need [Arduino IDE 1.8.8 or newer](https://www.arduino
 
 ## Submitting Changes
 
-- Submit **Bug Fixes** as Pull Requests to the ([bugfix-2.0.x](https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x)) branch.
-- Follow the [Coding Standards](http://marlinfw.org/docs/development/coding_standards.html) to gain points with the maintainers.
-- Please submit your questions and concerns to the [Issue Queue](https://github.com/MarlinFirmware/Marlin/issues).
+- Submit **Bug Fixes** as Pull Requests to the ([testing](https://github.com/MarlinFirmware/Marlin/tree/testing)) branch.
+- Follow [Marlin's Coding Standards](http://marlinfw.org/docs/development/coding_standards.html) to gain points with the maintainers.
+- Please submit your questions and concerns to the [Issue Queue](https://github.com/dagoiswriting/Tarlin/issues).
 
 ## Marlin Support
 
 For best results getting help with configuration and troubleshooting, please use the following resources:
 
-- [Marlin Documentation](http://marlinfw.org) - Official Marlin documentation
+- [Original Marlin Documentation](http://marlinfw.org) - Official Marlin documentation
 - [Marlin Discord](https://discord.gg/n5NJ59y) - Discuss issues with Marlin users and developers
 - Facebook Group ["Marlin Firmware"](https://www.facebook.com/groups/1049718498464482/)
 - RepRap.org [Marlin Forum](http://forums.reprap.org/list.php?415)
@@ -71,11 +72,12 @@ The current Marlin dev team is amazing and consists of:
  - Bob Kuhn [[@Bob-the-Kuhn](https://github.com/Bob-the-Kuhn)] - USA
  - Erik van der Zalm [[@ErikZalm](https://github.com/ErikZalm)] - Netherlands &nbsp; [![Flattr Erik](https://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=ErikZalm&url=https://github.com/MarlinFirmware/Marlin&title=Marlin&language=&tags=github&category=software)
 
-and lastly the one who takes all their efforts and breaks everything making silly shit:
- - Dago [[@dagoiswriting](https://github.com/dagoiswriting) - Italy
+and lastly the Tarlin dev team, who takes the efforts of the Marlin team and breaks everything trying to add silly shit that most of the time doesn't work:
+ - Dago [[@dagoiswriting]](https://github.com/dagoiswriting) - Italy
+ - Leonardo Norvegese [[@leonorvegese]](https://github.com/leonorvegese) - Italy
 
 ## License
 
-Marlin is published under the [GPL license](/LICENSE) because we believe in open development. The GPL comes with both rights and obligations. Whether you use Marlin firmware as the driver for your open or closed-source product, you must keep Marlin open, and you must provide your compatible Marlin source code to end users upon request. The most straightforward way to comply with the Marlin license is to make a fork of Marlin on Github, perform your modifications, and direct users to your modified fork.
+Tarlin is published under the [GPL license](/LICENSE) because we believe in open development. The GPL comes with both rights and obligations. Whether you use Tarlin firmware as the driver for your open or closed-source product, you must keep Tarlin open, and you must provide your compatible Tarlin source code to end users upon request. The most straightforward way to comply with the Tarlin license is to make a fork of Tarlin on Github, perform your modifications, and direct users to your modified fork. This is also what we made with the original Marlin. 
 
 While we can't prevent the use of this code in products (3D printers, CNC, etc.) that are closed source or crippled by a patent, we would prefer that you choose another firmware or, better yet, make your own.
