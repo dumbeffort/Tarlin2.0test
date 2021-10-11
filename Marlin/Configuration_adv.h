@@ -3469,7 +3469,7 @@
    * move up to the gears. If no filament is detected, the MMU2 can make some more attempts.
    * If all attempts fail, a filament runout will be triggered.
    */
-  //#define MMU_EXTRUDER_SENSOR
+  #define MMU_EXTRUDER_SENSOR
   #if ENABLED(MMU_EXTRUDER_SENSOR)
     #define MMU_LOADING_ATTEMPTS_NR 5 // max. number of attempts to load filament if first load fail
   #endif
