@@ -3471,7 +3471,7 @@
    */
   #define MMU_EXTRUDER_SENSOR
   #if ENABLED(MMU_EXTRUDER_SENSOR)
-    #define MMU_LOADING_ATTEMPTS_NR 5 // max. number of attempts to load filament if first load fail
+    #define MMU_LOADING_ATTEMPTS_NR 10 // max. number of attempts to load filament if first load fail
   #endif
 
   /**
@@ -3481,7 +3481,7 @@
    */
   //#define PRUSA_MMU2_S_MODE
   #if ENABLED(PRUSA_MMU2_S_MODE)
-    #define MMU2_C0_RETRY   5             // Number of retries (total time = timeout*retries)
+    #define MMU2_C0_RETRY   7             // Number of retries (total time = timeout*retries)
 
     #define MMU2_CAN_LOAD_FEEDRATE 800    // (mm/min)
     #define MMU2_CAN_LOAD_SEQUENCE \
